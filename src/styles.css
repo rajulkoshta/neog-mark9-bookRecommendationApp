@@ -131,6 +131,7 @@ body {
 
 .footer .link {
   color: var(--off-white);
+  font-weight: bolder;
 }
 
 .footer ul {
