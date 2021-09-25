@@ -4,64 +4,64 @@ import "./styles.css";
 //  book database
 const bookDb = {
   comics: [
-    { name: "Watchmen", rating: "4/5" },
-    { name: "The Walking Dead: Compendium One", rating: "3.5/5" },
-    { name: "The Boy, the Mole, the Fox and the Horse", rating: "3.5/5" }
+    { name: "Watchmen", rating: "⭐⭐⭐⭐" },
+    { name: "The Walking Dead: Compendium One", rating: "⭐⭐⭐" },
+    { name: "The Boy, the Mole, the Fox and the Horse", rating: "⭐⭐" }
   ],
   Mystery: [
     {
       name: "The Night Fire",
-      rating: "5/5"
+      rating: "⭐⭐⭐"
     },
     {
       name: "The Adventures of Sherlock Holmes",
-      rating: "4.5/5"
+      rating: "⭐⭐"
     },
     {
       name: "And Then There Were None",
-      rating: "4.5/5"
+      rating: "⭐⭐⭐⭐⭐"
     }
   ],
   business: [
     {
       name: "Never Split the Difference",
-      rating: "3.5/5"
+      rating: "⭐⭐"
     },
     {
       name: "Loonshots",
-      rating: "5/5"
+      rating: "⭐⭐⭐⭐⭐"
     },
     {
       name: "The Perfect Day to Boss Up",
-      rating: "5/5"
+      rating: "⭐⭐⭐⭐"
     }
   ],
   fantasy: [
     {
       name: "The Water Dancer",
-      rating: "3.5/5"
+      rating: "⭐⭐⭐⭐⭐"
     },
     {
       name: "Ninth House",
-      rating: "5/5"
+      rating: "⭐⭐⭐"
     },
     {
       name: "Circe",
-      rating: "5/5"
+      rating: "⭐⭐⭐⭐⭐"
     }
   ],
   horror: [
     {
       name: "Carrie",
-      rating: "3.5/5"
+      rating: "⭐⭐"
     },
     {
       name: "The Haunting of Hill House",
-      rating: "5/5"
+      rating: "⭐⭐⭐"
     },
     {
       name: "Bird Box",
-      rating: "5/5"
+      rating: "⭐⭐⭐⭐"
     }
   ]
 };
@@ -124,17 +124,17 @@ export default function App() {
         <div className="footer-header"> Connect with me </div>
         <ul className="social-links list-non-bullet">
           <li className="list-item-inline">
-            <a className="link" href="https://github.com/rajulkoshta">
+            <a target="_blank" className="link" href="https://github.com/rajulkoshta">
               github
             </a>
           </li>
           <li className="list-item-inline">
-            <a className="link" href="https://twitter.com/RajulKoshta">
+            <a target="_blank" className="link" href="https://twitter.com/RajulKoshta">
               twitter
             </a>
           </li>
           <li className="list-item-inline">
-            <a className="link" href="https://www.linkedin.com/in/rajulkoshta/">
+            <a target="_blank" className="link" href="https://www.linkedin.com/in/rajulkoshta/">
               LinkedIn
             </a>
           </li>
