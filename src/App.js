@@ -4,63 +4,83 @@ import "./styles.css";
 //  book database
 const bookDb = {
   comics: [
-    { name: "Watchmen", rating: "⭐⭐⭐⭐" },
-    { name: "The Walking Dead: Compendium One", rating: "⭐⭐⭐" },
-    { name: "The Boy, the Mole, the Fox and the Horse", rating: "⭐⭐" }
+    { name: "Watchmen", writer: " by Alan Moore", rating: "⭐⭐⭐⭐" },
+    {
+      name: "The Walking Dead: Compendium One",
+      writer: " by Robert Kirkman",
+      rating: "⭐⭐⭐"
+    },
+    {
+      name: "The Boy, the Mole, the Fox and the Horse",
+      writer: " by Charlie Mackesy",
+      rating: "⭐⭐"
+    }
   ],
   Mystery: [
     {
       name: "The Night Fire",
+      writer: " by Michael Connelly",
       rating: "⭐⭐⭐"
     },
     {
       name: "The Adventures of Sherlock Holmes",
+      writer: " by Arthur Conan Doyle",
       rating: "⭐⭐"
     },
     {
       name: "And Then There Were None",
+      writer: " by Agatha Christie",
       rating: "⭐⭐⭐⭐⭐"
     }
   ],
   business: [
     {
       name: "Never Split the Difference",
+      writer: " by Christopher Voss and Tahl Raz",
       rating: "⭐⭐"
     },
     {
       name: "Loonshots",
+      writer: " by Safi Bahcall",
       rating: "⭐⭐⭐⭐⭐"
     },
     {
       name: "The Perfect Day to Boss Up",
+      writer: " by Rick Ross and Neil Martinez-Belkin",
       rating: "⭐⭐⭐⭐"
     }
   ],
   fantasy: [
     {
       name: "The Water Dancer",
+      writer: " by Ta-Nehisi Coates",
       rating: "⭐⭐⭐⭐⭐"
     },
     {
       name: "Ninth House",
+      writer: " by Leigh Bardugo",
       rating: "⭐⭐⭐"
     },
     {
       name: "Circe",
+      writer: " by Madeline Miller",
       rating: "⭐⭐⭐⭐⭐"
     }
   ],
   horror: [
     {
       name: "Carrie",
+      writer: " by Stephen King",
       rating: "⭐⭐"
     },
     {
       name: "The Haunting of Hill House",
+      writer: " by Shirley Jackson",
       rating: "⭐⭐⭐"
     },
     {
       name: "Bird Box",
+      writer: " by Josh Malerman",
       rating: "⭐⭐⭐⭐"
     }
   ]
@@ -113,7 +133,8 @@ export default function App() {
             {bookDb[selectedGenre].map((books) => (
               <li key={books.name} className="list-item">
                 <div className="list-item-first">{books.name}</div>
-                <div className="list-item-second">{books.rating}</div>
+                <div className="list-item-second">{books.writer}</div>
+                <div className="list-item-third">{books.rating}</div>
               </li>
             ))}
           </ul>
@@ -124,17 +145,29 @@ export default function App() {
         <div className="footer-header"> Connect with me </div>
         <ul className="social-links list-non-bullet">
           <li className="list-item-inline">
-            <a target="_blank" className="link" href="https://github.com/rajulkoshta">
+            <a
+              target="_blank"
+              className="link"
+              href="https://github.com/rajulkoshta"
+            >
               github
             </a>
           </li>
           <li className="list-item-inline">
-            <a target="_blank" className="link" href="https://twitter.com/RajulKoshta">
+            <a
+              target="_blank"
+              className="link"
+              href="https://twitter.com/RajulKoshta"
+            >
               twitter
             </a>
           </li>
           <li className="list-item-inline">
-            <a target="_blank" className="link" href="https://www.linkedin.com/in/rajulkoshta/">
+            <a
+              target="_blank"
+              className="link"
+              href="https://www.linkedin.com/in/rajulkoshta/"
+            >
               LinkedIn
             </a>
           </li>
