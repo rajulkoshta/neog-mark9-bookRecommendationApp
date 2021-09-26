@@ -1,3 +1,3 @@
 # neog-mark9-bookRecommendationApp📚
-##### Simple book recommendation app made with react.js select a genre and get a list of best selling and the books which i recommend reading .
+#####  A simple book recommendation app made with react.js in codeSandbox . Select a genre and get a list of best selling books.It will show ratings according to my recommendation. feel free to try it out. have fun. 
 [click here](https://book-recommendation-for-you.netlify.app/)
